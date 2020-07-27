@@ -1,0 +1,54 @@
+/* Troll Game Project 7/22/2020 */
+
+body {
+	background-image:url("forest.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+h1{
+	font-family: 'Bangers', cursive;
+	color: brown;
+	text-align: center;
+	text-shadow: 6px 5px 4px black;
+	font-size: 78px;
+}
+
+div#button {
+	font-size: 32px;
+	font-family: 'Permanent Marker', cursive;
+	background-color: red;
+	width: 300px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 40px;
+	padding: 15px 0px;
+	border: 3px solid black;
+	color: red;
+	text-shadow: 1px 1px 5px black;
+	transition: all 1s;
+
+}
+
+div#button:hover {
+	background-color: yellow;
+	font-size: 36px; 
+	width: 340px;
+	cursor: pointer;
+}
+
+h2#result {
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: gold;
+	font-size: 34px;
+}
+
+h2#death {
+	text-align: center;
+	font-family: 'Bungee Inline', cursive;
+	color: silver;
+	font-size: 34px;
+}
